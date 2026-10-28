@@ -1,0 +1,24 @@
+eFOOTBALL CHAMPIONS — PSN e MOBILE
+
+COMO ABRIR
+1. Extrai o ficheiro ZIP.
+2. Abre a pasta e faz duplo clique em index.html.
+3. Ou abre a pasta no Visual Studio Code e usa a extensão Live Server.
+4. Usa as abas PSN e Mobile para consultar as competições.
+5. Na aba Administração, cria um PIN local (mínimo 4 caracteres).
+6. Seleciona PSN ou Mobile, adiciona participantes, agenda jogos e regista os resultados.
+7. A classificação da fase de liga é calculada automaticamente.
+8. Exporta JSON para fazer uma cópia de segurança; importa-o no mesmo painel.
+
+FICHEIROS
+index.html — estrutura e abas
+css/style.css — design responsivo inspirado na atmosfera da Champions League
+js/app.js — funcionalidades e cálculos
+
+IMPORTANTE
+- O site funciona offline, sem instalar dependências.
+- O PIN é apenas uma proteção visual de demonstração: não é seguro nem adequado para administrar um site público.
+- Os dados ficam guardados no navegador/dispositivo atual (localStorage). Não são partilhados automaticamente com outras pessoas.
+- Para inscrições online, administração segura e sincronização entre dispositivos é necessário ligar uma base de dados e autenticação real, como Supabase.
+- As eliminatórias são criadas manualmente. A classificação é automática apenas para os jogos da fase de liga.
+- O projeto é independente e não utiliza logótipos oficiais da UEFA nem da Konami.
